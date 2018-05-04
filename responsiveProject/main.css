@@ -111,6 +111,19 @@
     box-sizing: border-box;
 }
 
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 body {
     font-family: 'robotoregular';
     padding: 0;
@@ -130,6 +143,13 @@ h3 {
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
+    transform: translateX(-1%);
+}
+
+h4 {
+    color: #53a2e0;
+    font-size: 26px;
+    text-transform: capitalize;
 }
 
 .container {
@@ -147,8 +167,9 @@ h3 {
 
 .banner .h2Holder {
     text-transform: uppercase;
+    width: 100%;
     color: #fff;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 20px;
     position: absolute;
     text-align: center;
@@ -221,7 +242,7 @@ header nav ul li a:hover {
 .h3Decoration {
     margin: 0 auto;
     display: table;
-    transform: translateX(10%);
+    /* transform: translateX(10%); */
 }
 
 .h3Decoration .line {
@@ -239,4 +260,205 @@ header nav ul li a:hover {
     float: left;
     margin-right: 15px;
     transform: translateY(-50%) rotateZ(45deg);
+}
+
+.aboutUs p {
+    background: url(images/arrow_bullet.png) no-repeat left;
+    padding-left: 25px;
+}
+
+p.quote {
+    font-family: 'robotomedium';
+    font-weight: 500;
+    font-size: 18px;
+    background-image: none;
+    padding-left: 0;
+}
+
+
+
+.aboutUs img {
+    width: 100%;
+}
+
+.whatPeopleSays {
+    margin-bottom: 80px;
+}
+
+.whatPeopleSays article {
+    background: #81c3f5;
+    margin-bottom: 20px;
+}
+
+.whatPeopleSays img {
+    width: 120px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px;
+    margin-top: 40px;
+    border: 3px solid #fff;
+    float: left;
+}
+
+.whatPeopleSays span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 70px 0 5px 5px;
+    display: block;
+}
+
+.whatPeopleSays .starsHolder {
+    float: left;
+    display: block;
+}
+
+.whatPeopleSays .starsHolder i {
+    color: #fff;
+}
+
+.whatPeopleSays p {
+    margin: 0;
+    padding: 0 20px 40px;
+    color: #fff;
+    line-height: 2;
+}
+
+.contactUs {
+    margin-bottom: 40px;
+}
+
+.contactUs article {
+    text-align: center;
+}
+
+.contactUs article p {
+    margin: 0;
+    color: #fff;
+}
+
+.contactUs article ul {
+    margin: 0;
+}
+
+.contactUs .contact {
+    background-color: #3add9a;
+}
+
+.contactUs p:first-of-type{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contactUs .contact p:nth-child(2) i{
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.contactUs .contact p:last-of-type{
+    padding: 10px 0 30px 0;
+}
+
+.contactUs .contact p:last-of-type i{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.contactUs .contact p a{
+    color: #fff;
+}
+
+.contactUs .connect {
+    background-color: #fc5282;
+}
+
+.contactUs .address {
+    background-color: #376ce4;
+}
+
+.contactUs .connect ul {
+    list-style: none;
+    margin: 0 auto;
+    display: table;
+    padding-bottom: 40px;
+}
+
+.contactUs .connect ul li {
+    float: left;
+    padding-right: 20px;
+}
+
+.contactUs .connect ul li:last-of-type {
+    float: left;
+    padding-right: 0;
+}
+
+.contactUs .connect ul li a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.address p:last-of-type {
+    padding-bottom: 40px;
+}
+
+.address p i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+article.house {
+    background-color: #81c3f5;
+}
+
+.mapHolder iframe {
+    width: 100%;
+    height: 450px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+form input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #fd9727;
+    display: inline-block;
+    width: 120px;
+}
+
+footer {
+    background-color: #212121;
+    text-align: center;
+}
+
+footer ul {
+    display: table;
+    margin: 0 auto;
+    padding: 80px 0 50px 0;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    padding-right: 15px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer small {
+    color: #fff;
+    position: relative;
+    top: -20px;    
 }
