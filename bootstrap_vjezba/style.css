@@ -1,0 +1,24 @@
+
+.first {
+    background: gray;
+}
+
+.second {
+    background-color: blueviolet;
+} 
+
+.third {
+    background: gold;
+}
+
+.row {
+    background-color: tomato;
+}
+
+p {
+    border-radius: 10px;
+}
+
+.container:first-of-type .row {
+    padding-top: 15px;
+}
