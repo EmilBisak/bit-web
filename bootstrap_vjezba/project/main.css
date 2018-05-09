@@ -1,0 +1,39 @@
+.main-nav {
+    background-color: #b73733;
+
+}
+
+.nav-holder {
+    margin-bottom: 3px;
+}
+
+.main-nav li a{
+    color: #fff;
+    padding-left: 0px;
+    
+}
+
+.banner-img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inner-section .col-sm-4, .inner-section .col {
+    margin-bottom: 10px;
+}
+
+
+.inner-section .col .side-list li, .inner-section .col-sm-4 .side-list li  {
+    background-color: #d6a700;
+}
+
+footer {
+    background-color: #2f2a3d ;
+
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}

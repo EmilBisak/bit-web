@@ -11,9 +11,9 @@
     background: gold;
 }
 
-.row {
+/* .row {
     background-color: tomato;
-}
+} */
 
 p {
     border-radius: 10px;
@@ -21,4 +21,22 @@ p {
 
 .container:first-of-type .row {
     padding-top: 15px;
+}
+
+.box {
+    height: 60px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.box2 {
+    height: 140px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+#inner-row {
+    padding-top:0px;
 }
