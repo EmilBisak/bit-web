@@ -9,9 +9,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 
   <title>Bootstrap And Sass</title>
 </head>
@@ -65,68 +66,90 @@
   <main>
     <div class="container">
       <section class="row">
-        <div class="col-10 offset-1">
+        <div class="col-10 offset-1 portfolio">
           <h2>Portfolio</h2>
+          <div class="starDecoration">
+            <div class="line"></div>
+            <i class="fas fa-star"></i>
+            <div class="line"></div>
+          </div>
           <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/cabin.png" alt="cabin" class="img-fluid">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/cake.png" alt="cake" class="img-fluid">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/circus.png" alt="circus" class="img-fluid">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/game.png" alt="game" class="img-fluid">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/safe.png" alt="safe" class="img-fluid">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
+            <div class="col-12 col-sm-6 col-lg-4 image-holder">
               <img src="images/submarine.png" alt="submarine" class="img-fluid">
             </div>
           </div>
         </div>
       </section>
-      <section class="row">
-        <div class=" col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
-          <h2>About</h2>
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum recusandae labore accusantium eveniet voluptatibus,
-                natus quis debitis architecto, cupiditate dolorem dolore perspiciatis consequuntur ducimus laudantium reiciendis
-                dolores ab voluptatem illo quos. Corrupti aliquid voluptates est iste deleniti quidem officiis esse.</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum recusandae labore accusantium eveniet voluptatibus,
-                natus quis debitis architecto, cupiditate dolorem dolore perspiciatis consequuntur ducimus laudantium reiciendis
-                dolores ab voluptatem illo quos. Corrupti aliquid voluptates est iste deleniti quidem officiis esse.</p>
-            </div>
-          </div>
-          <a href="#">Find out more</a>
-        </div>
-      </section>
-      <section class="row">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2>Contact me</h2>
+    </div>
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class=" col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
+            <h2>About</h2>
+            <div class="starDecoration">
+              <div class="line"></div>
+              <i class="fas fa-star"></i>
+              <div class="line"></div>
             </div>
             <div class="row">
-              <div class="col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
-                <form action="#" method="post">
-                  <input type="text" class="form-control" id="name" placeholder="Name">
-                  <input type="email" class="form-control" id="email" placeholder="Email">
-                  <input type="telephone" class="form-control" id="phone" placeholder="Phone">
-                  <textarea name="Message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+              <div class="col-12 col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum recusandae labore accusantium eveniet voluptatibus,
+                  natus quis debitis architecto, cupiditate dolorem dolore perspiciatis consequuntur ducimus laudantium reiciendis
+                  dolores ab voluptatem illo quos. Corrupti aliquid voluptates est iste deleniti quidem officiis esse.</p>
+              </div>
+              <div class="col-12 col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum recusandae labore accusantium eveniet voluptatibus,
+                  natus quis debitis architecto, cupiditate dolorem dolore perspiciatis consequuntur ducimus laudantium reiciendis
+                  dolores ab voluptatem illo quos. Corrupti aliquid voluptates est iste deleniti quidem officiis esse.</p>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fas fa-info-circle"></i>Find out more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row contact-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Contact me</h2>
+            <div class="starDecoration">
+              <div class="line"></div>
+              <i class="fas fa-star"></i>
+              <div class="line"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-10 offset-sm-1 col-lg-6 offset-lg-3+">
+                <form action="#" method="post" class="form-group">
+                  <input type="text" id="name" placeholder="Name">
+                  <input type="email" id="email" placeholder="Email">
+                  <input type="telephone" id="phone" placeholder="Phone">
+                  <textarea name="Message" id="message" cols="30" rows="6" placeholder="Message"></textarea>
                   <input type="submit" value="Send">
                 </form>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
   </main>
   <footer>

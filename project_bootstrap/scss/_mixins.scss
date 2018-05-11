@@ -1,3 +1,21 @@
 @mixin lightGreen (){
     background: #00bc9c;
 }
+
+@mixin blackStar (){
+    .starDecoration{ 
+        margin-bottom: 10px;
+        .line {
+        background: #100;
+        }
+    }
+}
+
+@mixin form-style{
+    width: 90%;
+    border:none;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    color: #858e95;
+    padding: 10px 0px;
+}
