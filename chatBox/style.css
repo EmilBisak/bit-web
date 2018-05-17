@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 70%;
+    height: 96vh;
+    margin: 0 auto;
+    border: 2px solid rgb(230, 227, 224);
+    overflow: auto;
+    background: #fff;
+}
+
+.container span {
+    background-color: rgb(230, 227, 224);
+    padding: 5px 10px;
+    margin-top: 5px;
+    float: left;
+    clear: both;
+}
+
+input  {
+    display: inline-block;
+    height: 24px;
+}
+
+#text {
+    width: 68%;
+    float: left;
+    margin-right: 1%;
+}
+
+input[type="button"] {
+    float: left;
+    width: 29%;
+    color:white;
+    background-color: tomato;
+}
+
+.holder {
+    bottom: 5px;
+    width: 100%;
+    position: fixed;
+}
+
+.wraper {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
