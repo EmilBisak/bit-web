@@ -1,0 +1,8 @@
+.container {
+    margin: 30px auto;
+    width: 960px;
+}
+
+.redBorder {
+    border: 1px solid red;
+}
