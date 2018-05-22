@@ -1,0 +1,22 @@
+.field {
+    background: url(./img/field.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.player {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#btn {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 50px;
+    height: 20px;
+}
